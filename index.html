@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>msx-electron-app</title>
+    </head>
+    <body>
+        <div id="wmsx-screen"></div>
+        <script src="wmsx.js"></script>
+        <script>
+            // WebMSXの各種パラメタを調整
+            WMSX.MACHINE = "MSX1J";
+            WMSX.SCREEN_FULLSCREEN_MODE = 2;
+            WMSX.SCREEN_DEFAULT_ASPECT = 1.0;
+            WMSX.CARTRIDGE1_URL = "image.rom";
+        </script>
+    </body>
+</html>
