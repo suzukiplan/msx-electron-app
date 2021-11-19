@@ -8,27 +8,26 @@ Qiita で紹介した記事「Electron + WebMSX でデスクトップ PC 向け 
 
 ### Install dependencies
 
-```
+```bash
 npm install
 ```
 
 ### Execute in the local environment
 
-```
-./node_modules/.bin/electron .
+```bash
+npm start
 ```
 
 ### Make the packages
 
-#### for Intel Mac
+#### for Mac (x64)
 
-```
-./node_modules/.bin/electron-packager ./ --platform=darwin --arch=x64
-```
-
-#### for Intel Windows
-
-```
-./node_modules/.bin/electron-packager ./ --platform=win32 --arch=x64
+```bash
+npm run package-darwin-x64
 ```
 
+#### for Windows (x64)
+
+```bash
+npm run package-win32-x64
+```
