@@ -2,7 +2,7 @@
 
 ## About
 
-Qiita で紹介した記事「Electron + WebMSX でデスクトップ PC 向け MSX ソフトを作ってみる」のソースコード類です。
+Qiita で紹介した記事 [Electron + WebMSX でデスクトップ PC 向け MSX ソフトを作ってみる](https://qiita.com/suzukiplan/items/c012111e0da0c7a9ddb5) のソースコード類です。
 
 ## How to use
 
